@@ -1,0 +1,26 @@
+[
+  {
+    "id": "linear-algebra-basics",
+    "title": "Linear Algebra Basics: Vectors → Matrices → Models",
+    "date": "2025-08-10",
+    "author": "SEIDM Editors",
+    "tags": [
+      "math",
+      "foundations"
+    ],
+    "cover": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1280&auto=format&fit=crop",
+    "summary": "A gentle path from vectors and spans to matrices and transformations — with visual intuition and a peek at how ML uses them."
+  },
+  {
+    "id": "probability-simulations",
+    "title": "Monte Carlo: Estimating π with Randomness",
+    "date": "2025-08-15",
+    "author": "SEIDM Editors",
+    "tags": [
+      "data-science",
+      "probability"
+    ],
+    "cover": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1280&auto=format&fit=crop",
+    "summary": "Throw random points, watch ratios converge, and see the law of large numbers in action — animated in 20 lines of JS."
+  }
+]

@@ -1,0 +1,11 @@
+<p>Monte Carlo methods approximate quantities by random sampling. To estimate π, sample points (x,y) in the unit square and count how many fall within the quarter circle x² + y² ≤ 1. The ratio × 4 converges to π.</p>
+<pre><code>// JS sketch
+const n = 100000; let inside = 0;
+for (let i=0; i<n; i++) {
+  const x = Math.random(), y = Math.random();
+  if (x*x + y*y <= 1) inside++;
+}
+console.log(4*inside/n);
+</code></pre>
+<p>Sampling teaches variance, confidence, and why more data beats complex tricks.</p>
+<img src="https://images.unsplash.com/photo-1534759846116-5790a4a9dc1a?q=80&w=1200&auto=format&fit=crop" alt="Monte Carlo dots" />

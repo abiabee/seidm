@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SEIDM — Math & Data Science Blog</title>
+  <meta name="description" content="SEIDM: a simple school blog about math and data science." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext x='8' y='48' font-size='48'%3E%E2%88%91%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand" role="banner">
+        <div class="logo" aria-hidden="true">∑</div>
+        <a href="#/" class="brand-name" aria-label="SEIDM Home" style="color:var(--text); text-decoration:none">SEIDM</a>
+        <span class="muted" style="font-weight:600">Math & Data Science</span>
+      </div>
+      <div class="nav-links">
+        <a href="#/" data-nav="home" class="active">Home</a>
+        <a href="#/articles" data-nav="articles">Articles</a>
+        <a href="#/about" data-nav="about">About</a>
+      </div>
+      <form class="search" id="searchForm" role="search" aria-label="Search articles">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15z" stroke="currentColor" stroke-width="2"/></svg>
+        <input id="searchInput" type="search" placeholder="Search" autocomplete="off" />
+      </form>
+    </div>
+  </nav>
+
+  <main class="container" id="app" tabindex="-1"></main>
+
+  <footer class="container center">
+    <div>© <span id="year"></span> SEIDM • Built for learning 🧮 📊</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
